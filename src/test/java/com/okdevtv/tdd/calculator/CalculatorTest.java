@@ -14,6 +14,13 @@ public class CalculatorTest {
 	}
 	
 	// testSubtract
+	@Test
+	public void testSubtract() {
+		Calculator calculator = new Calculator();
+		int result = calculator.subtract(1, 2);
+		assertEquals(-1, result);
+	}
+	
 	// testMultiply
 	// testDivide
 
