@@ -30,5 +30,11 @@ public class CalculatorTest {
 	}
 	
 	// testDivide
-
+	@Test
+	public void testDivide() {
+		Calculator calculator = new Calculator();
+		int result = calculator.divide(1, 2);
+		assertEquals(0, result);
+	}
+	
 }
